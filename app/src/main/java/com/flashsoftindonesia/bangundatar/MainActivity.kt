@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         val btnLingakran: Button = findViewById(R.id.btnLingakran)
 
         btnPersegi.setOnClickListener {
-            val intent = Intent(this, ThirdResultActivity::class.java)
+            val intent = Intent(this, PersegiActivity::class.java)
             startActivity(intent)
         }
     }
