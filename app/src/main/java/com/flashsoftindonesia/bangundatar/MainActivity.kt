@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val btnPersegi: Button = findViewById(R.id.btnPersegi)
         val btnPersegiPanjang: Button = findViewById(R.id.btnPersegiPanjang)
         val btnSegitiga: Button = findViewById(R.id.btnSegitiga)
-        val btnLingakran: Button = findViewById(R.id.btnLingakran)
+        val btnLingkaran: Button = findViewById(R.id.btnLingkaran)
 
         btnPersegi.setOnClickListener {
             val intent = Intent(this, PersegiActivity::class.java)
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnLingakran.setOnClickListener {
+        btnLingkaran.setOnClickListener {
             val intent = Intent(this, LingkaranActivity::class.java)
             startActivity(intent)
         }
