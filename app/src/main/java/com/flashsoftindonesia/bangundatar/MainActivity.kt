@@ -32,5 +32,20 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PersegiActivity::class.java)
             startActivity(intent)
         }
+
+        btnPersegiPanjang.setOnClickListener {
+            val intent = Intent(this, PersegiPanjangActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnSegitiga.setOnClickListener {
+            val intent = Intent(this, SegitigaActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnLingakran.setOnClickListener {
+            val intent = Intent(this, LingkaranActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

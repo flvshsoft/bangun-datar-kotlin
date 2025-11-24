@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BangunDatar">
         <activity
+            android:name=".LingkaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SegitigaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PersegiPanjangActivity"
+            android:exported="false" />
+        <activity
             android:name=".PersegiActivity"
             android:exported="false" />
         <activity

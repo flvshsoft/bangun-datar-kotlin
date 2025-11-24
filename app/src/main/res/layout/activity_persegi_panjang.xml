@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PersegiActivity">
+    tools:context=".PersegiPanjangActivity">
 
     <TextView
         android:id="@+id/txtNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Persegi"
+        android:text="Persegi Panjang"
         android:layout_marginTop="40dp"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,13 +26,13 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputSisi" />
+        app:layout_constraintTop_toBottomOf="@+id/inputLebar" />
 
     <TextView
         android:id="@+id/txtSisi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sisi"
+        android:text="Panjang"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,15 +40,37 @@
         app:layout_constraintTop_toBottomOf="@+id/txtNama" />
 
     <EditText
-        android:id="@+id/inputSisi"
+        android:id="@+id/inputPanjang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Masukkan sisi"
+        android:hint="Masukkan panjang"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSisi" />
+
+    <TextView
+        android:id="@+id/txtLebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lebar"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPanjang" />
+
+    <EditText
+        android:id="@+id/inputLebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan lebar"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLebar" />
 
     <TextView
         android:id="@+id/txtHasil"
